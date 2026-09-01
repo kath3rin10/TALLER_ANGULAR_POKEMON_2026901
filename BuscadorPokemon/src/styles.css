@@ -1,0 +1,26 @@
+:root {
+  --bg: #0f1420;
+  --surface: #1a2130;
+  --input-bg: #10151f;
+  --border: #2a3346;
+  --text: #f4f6fb;
+  --muted: #9aa4b8;
+  --accent: #ef4444;
+  --accent-foreground: #ffffff;
+  --danger: #f87171;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background:
+    radial-gradient(1200px 600px at 50% -10%, #1d2740 0%, var(--bg) 60%);
+  color: var(--text);
+  font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+}
